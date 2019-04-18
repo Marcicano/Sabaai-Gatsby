@@ -1,6 +1,7 @@
 ---
 title: Hot Balls
 thumbnail: /img/hot-ball.png
+position: 2
 date: 2019-04-18T03:09:07.617Z
 cidadeCurso: bahia - paraiba
 publicoCurso: >+
