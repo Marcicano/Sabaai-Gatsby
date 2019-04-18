@@ -1,6 +1,7 @@
 ---
 title: Thai Massagem
 thumbnail: /img/formacao.png
+position: 1
 date: 2019-04-18T03:09:19.993Z
 cidadeCurso: cidade 1 - cidade 2
 publicoCurso: >+
