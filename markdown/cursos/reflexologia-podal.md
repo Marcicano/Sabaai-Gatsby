@@ -2,6 +2,7 @@
 templateKey: cursos-informacoes
 title: Reflexologia Podal
 thumbnail: /img/reflexologia.png
+position: 3
 date: 2019-04-18T08:09:31.590Z
 cidadeCurso: Rio - Sampa
 publicoCurso: >+
