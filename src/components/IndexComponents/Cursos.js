@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link, useStaticQuery, graphql } from "gatsby"
-import ImageTeste from "../../images/cursos/formacao.png"
 
 
 const Cursos = () => {
@@ -29,13 +28,16 @@ const Cursos = () => {
 }
   `)
 
-  
+  const cursos = data.allMarkdownRemark.edges
   return (
     <React.Fragment>
-      {data.allMarkdownRemark.edges.map(item => {
-        return <Curso key={item.node.id} curso={item.node} />
-      })}
-      
+      <section className="gallery" id="cursos">
+          <div className="row">
+          {cursos.map(item => {
+            return <Curso key={item.node.id} curso={item.node} />
+          })}  
+          </div>  
+      </section>
     </React.Fragment>
   )
 }
@@ -51,8 +53,6 @@ const Curso = ({curso}) => {
   const { slug } = curso.fields
   return (
     <React.Fragment>
-      <section className="gallery" id="cursos">
-        <div className="row">
           <div className="col-xs-12 col-md-6">
             <div className="gallery-item col-xs-12 ">
               <Link to={`/cursos/${slug}`}>
@@ -66,8 +66,6 @@ const Curso = ({curso}) => {
               </Link>
             </div>
           </div>
-        </div>
-      </section>
     </React.Fragment>
   )
 }
