@@ -5,7 +5,12 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 const Cursos = () => {
   const data = useStaticQuery(graphql`
   query {
-  allMarkdownRemark {
+  allMarkdownRemark(
+    sort: {
+      fields: [frontmatter___position]
+      order: ASC
+    }
+  ) {
     edges{
       node{
         id
@@ -15,6 +20,7 @@ const Cursos = () => {
         frontmatter{
           title
           thumbnail
+          position
           date
           cidadeCurso
           publicoCurso
