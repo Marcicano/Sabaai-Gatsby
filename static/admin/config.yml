@@ -8,7 +8,7 @@ public_folder: /img
 collections:
   - name: "cursos"
     label: "Cursos na primeira pagina"
-    folder: "/src/cursos/markdown"
+    folder: "/markdown/cursos"
     create: true
     slug: "{{slug}}"
     editor:
