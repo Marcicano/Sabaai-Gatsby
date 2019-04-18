@@ -1,5 +1,5 @@
 import React from 'react'
-import Marcicano from "../../images/Marcicano.jpg"
+import Marcicano from "../../images/marcicano.jpg"
 import Logo1 from "../../images/logo1.jpg"
 import Logo2 from "../../images/logo2.jpg"
 import Logo3 from "../../images/logo3.jpg"
