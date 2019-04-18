@@ -11,7 +11,6 @@ collections:
     folder: "/markdown/cursos"
     create: true
     slug: "{{slug}}"
-    preview_path: "cursos/{{slug}}"
     editor:
      preview: false
     fields:
