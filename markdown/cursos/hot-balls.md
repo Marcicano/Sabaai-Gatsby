@@ -3,34 +3,33 @@ title: Hot Balls
 thumbnail: /img/hot-ball.png
 date: 2019-04-18T03:09:07.617Z
 cidadeCurso: bahia - paraiba
-publicoCurso: >-
-  Não há pré-requisitos, é voltado àqueles que tenham interesse em práticas
-  corporais, massoterapeutas, praticantes da Yoga ou simplesmente às pessoas que
-  apreciam o toque como uma forma de relaxamento e bem-estar.
-sobreCurso: >-
-  O curso de Formação em Massagem Tradicional Tailandesa (Massagem Thai)
-  oferecido pelo Professor Anderson Marcicano segue os mesmos padrões de ensino
-  da Escola Tailandesa ITM School, o que possibilita a Certificação
-  Internacional emitida por esta escola, reconhecida em diversos países no
-  mundo. Como trata-se de um curso intensivo, com carga horária de 60 horas,
-  todos os dias de aula são fundamentais para o aprendizado e assimilação da
-  técnica. Qualquer ausência acarretará na conclusão do curso. Portanto, é
-  necessário o comprometimento do aluno em participar em todos os encontros. Em
-  caso de não comparecimento à aula por qualquer motivo, será necessário a
-  reposição da mesma, estando sujeito à cobrança adicional.
-abordagemCurso: >-
-  O curso de formação compreende os Níveis I e II do formato Tailandês do ITM
-  School: - Abrange e ensina todas as posições da Massagem Thai sendo: Decúbito
-  Dorsal, Ventral, Lateral e Sentado (em média 150 movimentos). - Introdução ao
-  conceito de meridianos, linhas de energia (Sen). - Aspectos práticos da
-  Massagem Thai como alongamentos, pressão, pontos de acupressão tailandesa, uso
-  adequado do peso do corpo, técnicas que usam mãos, polegares, cotovelos e pés.
-  - Ênfase adicional no trabalho abdominal profundo – Hara - Como montar e criar
-  sua própria sessão de Thai Massagem - Como abordar e explicar o que é Massagem
-  Tradicional Tailandesa (MTT) - Após a conclusão do curso os alunos terão uma
-  base sólida dos movimentos da MTT e estarão aptos a criar suas próprias
-  sequências de Massagem de 1h a 3 horas de terapia.
-valorVista: R$ 1.850 à vista (matrícula R$ 350 + 1.500)
-valorParcelado: R$ 1.950 parcelado (matrícula de R$ 350 + 1.600 - até 12x no cartão)
+publicoCurso: >+
+  Não há pré-requisitos para se inscrever. O curso é voltado àqueles que tenham
+  interesse em práticas corporais, massoterapeutas, praticantes da Yoga ou
+  simplesmente às pessoas que apreciam o toque como uma forma de relaxamento e
+  bem-estar.
+
+sobreCurso: >+
+  O Prof. Anderson Marcicano é graduado em Nuad Bo-rarn Thai Massagem pela ITM
+  School e pelo SPA Mantra em Chiang Mai na Tailândia. É membro da Thai Healing
+  Alliance International (THAI) e professor de terapias corporais alternativas
+  desde 2016 e possui formação em várias técnicas de massagem tailandesa. Reside
+  em Chiang Mai no norte da Tailândia desde 2015 onde pode fazer uma imersão
+  profunda na cultura e nas tradições do norte do país onde a cultura Lanna está
+  presente. Hoje ministra workshops e cursos das técnicas de Thai Massagem no
+  Brasil, Europa e América Latina.
+
+
+abordagemCurso: >+
+  O curso de formação compreende os movimentos do formato Tailandês da ITM
+  School/Spa Mantra: - Posições: Decúbito Dorsal, Ventral, Lateral e Sentado (em
+  média 50 movimentos). - Propriedades das ervas aplicadas na composição das
+  bolas de compressa. - Estudo dos benefícios e contraindicações de cada erva
+  utilizada. - Como montar e criar sua própria sessão. - Como abordar e explicar
+  o que é Thai Herbal Hot Compress - Como produzir e montar suas próprias bolas
+  de ervas
+
+valorVista: R$ 1.000 à vista (matrícula de R$350 + 750)
+valorParcelado: R$ 1.100 parcelado (matrícula de R$350 + 850 em até 12x no cartão)
 ---
 
