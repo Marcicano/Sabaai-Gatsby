@@ -7,10 +7,11 @@ public_folder: /img
 
 collections:
   - name: "cursos"
-    label: "Cursos na primeira pagina"
+    label: "Cursos"
     folder: "/markdown/cursos"
     create: true
     slug: "{{slug}}"
+    preview_path: "cursos/{{slug}}"
     editor:
      preview: false
     fields:
