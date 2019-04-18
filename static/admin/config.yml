@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   repo: Marcicano/Sabaai-Gatsby
 
+  publish_mode: editorial_workflow
 media_folder: static/img
 public_folder: /img
 
