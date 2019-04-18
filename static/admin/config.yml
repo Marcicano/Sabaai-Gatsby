@@ -14,8 +14,13 @@ collections:
     editor:
      preview: false
     fields:
-      - { label: "Title", name: "title", widget: "string" }
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "cursos-informacoes"}
+      - { label: "Nome do Curso", name: "title", widget: "string" }
+      - { label: "Image do Curso", name: "thumbnail", widget: "image" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      
+      - { label: "Cidades do Curso", name: "cidadeCurso", widget: "string" }
+      - { label: "Publico Alvo", name: "publicoCurso", widget: "text" }
+      - { label: "Sobre o Curso", name: "sobreCurso", widget: "text" }
+      - { label: "Aula Abordagem", name: "abordagemCurso", widget: "text" }
+      - { label: "Valor A Vista", name: "valorVista", widget: "string" }
+      - { label: "Valor Parcelado", name: "valorParcelado", widget: "string" }
