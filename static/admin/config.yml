@@ -36,6 +36,19 @@ collections:
     editor:
      preview: false
     fields:
-      - { label: "Curso", name: "title", widget: "string", default: "intro-primeira-pagina" }
+      - { label: "Curso", name: "title", widget: "string", default: "Introducao-primeira-pagina" }
       - { label: "Texto", name: "content", widget: "markdown" }
-      
+  
+  
+  - name: "professores"
+    label: "Professores Pagina Principal"
+    folder: "/markdown/Professores"
+    create: true
+    slug: "{{slug}}"
+    editor:
+     preview: false
+    fields:
+      - { label: "Professor Key", name: "professorKey", widget: "hidden", default: "professor-info" }
+      - { label: "Nome do Professor", name: "title", widget: "string" }
+      - { label: "Texto", name: "content", widget: "markdown" }    
+      - { label: "Foto do Professor", name: "thumbnail", widget: "image" }
