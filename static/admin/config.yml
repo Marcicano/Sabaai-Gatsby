@@ -36,6 +36,6 @@ collections:
     editor:
      preview: false
     fields:
-      - { label: "Curso", name: "title", widget: "hidden", default: "intro-primeira-pagina" }
       - { label: "Texto", name: "content", widget: "markdown" }
+      - { label: "Curso", name: "title", widget: "hidden", default: "intro-primeira-pagina" }
       
