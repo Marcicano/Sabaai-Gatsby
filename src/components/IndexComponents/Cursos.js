@@ -10,6 +10,11 @@ const Cursos = () => {
       fields: [frontmatter___position]
       order: ASC
     }
+    filter: {
+      frontmatter: {
+        templateKey: {eq: "cursos-informacoes"}
+      }
+    }
   ) {
     edges{
       node{
@@ -54,7 +59,6 @@ export default Cursos
 
 
 const Curso = ({curso}) => {
-  console.log(curso.fields.slug)
   const { thumbnail, title, cidadeCurso } = curso.frontmatter
   const { slug } = curso.fields
   return (
@@ -62,7 +66,7 @@ const Curso = ({curso}) => {
           <div className="col-xs-12 col-md-6">
             <div className="gallery-item col-xs-12 ">
               <Link to={`/cursos/${slug}`}>
-                <img src={thumbnail} alt="" className="curso-image center-image" />
+                <img src={thumbnail} alt="" className="center-image" />
                 <div className="row middle-xs center-xs overlay">
                   <div className="col-xs-12 cursos-text">
                     <h3>{title}</h3>
