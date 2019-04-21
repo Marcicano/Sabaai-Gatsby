@@ -54,6 +54,7 @@ collections:
       - { label: "body", name: "body", widget: "markdown" }
 
   - name: "infoindex"
+    identifier_field: name
     label: "Introducao Pagina Principal"
     folder: "/markdown/Intro"
     create: true
@@ -61,8 +62,7 @@ collections:
     editor:
      preview: false
     fields:
-      - { label: "Info Key", name: "infoKey", widget: "hidden", default: "index-info" }
-      - { label: "Title", name: "title", widget: "string", default: "Texto primeira pagina" }
+      - { label: "Texto", name: "texto", widget: "string", default: "Texto primeira pagina" }
       - { label: "body", name: "body", widget: "markdown" }    
 
 
