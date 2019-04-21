@@ -27,17 +27,17 @@ collections:
       - { label: "Valor A Vista", name: "valorVista", widget: "string" }
       - { label: "Valor Parcelado", name: "valorParcelado", widget: "string" }
 
-  - name: "infoindex"
-    label: "Introducao Pagina Principal"
-    folder: "/markdown/Intro"
-    create: true
-    slug: "{{slug}}"
-    editor:
-     preview: false
-    fields:
-      - { label: "TemplateKey", name: "templateKey", widget: "hidden", default: "index-info" }
-      - { label: "Area", name: "title", widget: "string", default: "Texto primeira pagina" }
-      - { label: "body", name: "body", widget: "markdown" }
+  # - name: "infoindex"
+  #   label: "Introducao Pagina Principal"
+  #   folder: "/markdown/Intro"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   editor:
+  #    preview: false
+  #   fields:
+  #     - { label: "TemplateKey", name: "templateKey", widget: "hidden", default: "index-info" }
+  #     - { label: "Title", name: "title", widget: "string", default: "Texto primeira pagina" }
+  #     - { label: "body", name: "body", widget: "markdown" }
   
   
   - name: "professores"
@@ -65,5 +65,18 @@ collections:
       - { label: "Viagem Key", name: "viagemKey", widget: "hidden", default: "viagem-info" }
       - { label: "Viagem", name: "viagem", widget: "string", default: "Viagem a Tailandia" }
       - { label: "body", name: "body", widget: "markdown" }
+
+
+  - name: "index"
+    label: "Primeira Pagina Textos"
+    folder: "/markdown/Index"
+    create: true
+    slug: "{{slug}}"
+    editor:
+     preview: false
+    fields:
+      - { label: "Viagem Key", name: "indexKey", widget: "hidden", default: "indexinfo" }
+      - { label: "Texto Introducao", name: "body", widget: "markdown" }
+      - { label: "Texto Viagem Tailandia", name: "body", widget: "markdown" }
       
       
