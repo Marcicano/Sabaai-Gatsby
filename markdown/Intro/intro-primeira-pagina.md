@@ -1,5 +1,5 @@
 ---
-viagem: Texto primeira pagina
+area: Texto primeira pagina
 ---
 ## Sabaai (สบาย), a Tailândia nas suas mãos!
 
