@@ -76,7 +76,7 @@ collections:
      preview: false
     fields:
       - { label: "Viagem Key", name: "indexKey", widget: "hidden", default: "indexinfo" }
-      - { label: "Texto Introducao", name: "body", widget: "markdown" }
-      - { label: "Texto Viagem Tailandia", name: "bodyviagem", widget: "markdown" }
+      - { label: "Texto Introducao", name: "title", widget: "markdown" }
+      - { label: "Texto Viagem Tailandia", name: "body", widget: "markdown" }
       
       
