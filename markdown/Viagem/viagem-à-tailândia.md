@@ -1,5 +1,6 @@
 ---
 viagemKey: viagem-info
+viagem: Texto Sobre Viagem para Tailandia
 ---
 ## _**Viagem à Tailândia**_
 
