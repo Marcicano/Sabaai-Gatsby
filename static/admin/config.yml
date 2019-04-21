@@ -36,7 +36,7 @@ collections:
      preview: false
     fields:
       - { label: "TemplateKey", name: "templateKey", widget: "hidden", default: "index-info" }
-      - { label: "Area", name: "area", widget: "string", default: "Texto primeira pagina" }
+      - { label: "Area", name: "title", widget: "string", default: "Texto primeira pagina" }
       - { label: "body", name: "body", widget: "markdown" }
   
   
