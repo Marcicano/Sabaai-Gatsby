@@ -12,6 +12,7 @@ export const queryPage = graphql`
       }
     }
   ) {
+    html
     frontmatter {
      title
      publicoCurso
@@ -27,6 +28,7 @@ export const queryPage = graphql`
 
 
 const internalPage = ({data}) => {
+  console.log(data)
     
     const { title, publicoCurso, sobreCurso, abordagemCurso, valorVista, valorParcelado } = data.markdownRemark.frontmatter
   return (
@@ -58,7 +60,19 @@ const internalPage = ({data}) => {
                  </form>
                </div>
              </div>
-             <div className="container page-section">
+             <div className="container page-section"
+        dangerouslySetInnerHTML={{ __html: data.markdownRemark.html}}
+              />
+               
+             
+           </React.Fragment>
+  )
+}
+
+export default internalPage
+
+
+{/* <div className="container page-section">
                <div className="col">
                  <h2 className="page-section">A quem é destinado este curso?</h2>
                   <p> {publicoCurso} </p>
@@ -76,9 +90,4 @@ const internalPage = ({data}) => {
                    </li>
                  </ul>
                </div>
-             </div>
-           </React.Fragment>
-  )
-}
-
-export default internalPage
+             </div> */}

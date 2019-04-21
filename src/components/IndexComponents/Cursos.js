@@ -19,6 +19,7 @@ const Cursos = () => {
     edges{
       node{
         id
+        html
         fields {
           slug
         }
@@ -61,6 +62,7 @@ export default Cursos
 const Curso = ({curso}) => {
   const { thumbnail, title, cidadeCurso } = curso.frontmatter
   const { slug } = curso.fields
+  console.log(curso)
   return (
     <React.Fragment>
           <div className="col-xs-12 col-md-6">
