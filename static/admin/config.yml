@@ -64,5 +64,6 @@ collections:
     fields:
       - { label: "Viagem Key", name: "viagemKey", widget: "hidden", default: "viagem-info" }
       - { label: "Titulo", name: "title", widget: "string" }
-      - { label: "Texto", name: "content", widget: "markdown" }    
+      - { label: "Texto", name: "content", widget: "markdown" }
+      - { label: "Foto", name: "thumbnail", widget: "image" }
       
