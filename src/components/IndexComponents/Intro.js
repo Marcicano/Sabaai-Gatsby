@@ -1,18 +1,32 @@
 import React from 'react'
+import { useStaticQuery, graphql} from 'gatsby'
 
 const Intro = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      allMarkdownRemark(
+        filter: { id: { eq: "f232a0d8-ba13-5e19-a664-c542a8c72a23" } }
+      ) {
+        edges {
+          node {
+            id
+            html
+            frontmatter {
+              texto
+            }
+          }
+        }
+      }
+    }
+  `)
+  const introtexto = data.allMarkdownRemark.edges[0].node.html
   return (
     <React.Fragment>
       <section className="intro" id="intro">
         <div className="container middle-xs">
           <div className="row content">
             <div className="col-xs-12 middle-xs whitebox">
-              <h3 className="intro--title"> Tailandia nas maos</h3>
-              <p className="intro-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus animi et vero eum, tempore corrupti ad fugit assumenda magni facere dolor asperiores aut architecto laboriosam laudantium libero molestiae? Odio, maxime!</p>
-              <p className="intro-text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae architecto dolorem praesentium impedit ullam vel ex libero deleniti officia porro illum qui error voluptates, rem dolores commodi nisi obcaecati doloremque!
-              </p>
-              <p>Sabaai, uma experiência.</p>
+              <div dangerouslySetInnerHTML={{__html: introtexto}} />
             </div>
           </div>
         </div>

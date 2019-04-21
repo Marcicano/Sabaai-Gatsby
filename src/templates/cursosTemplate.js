@@ -52,7 +52,7 @@ const internalPage = ({data}) => {
                        />
                      </div>
                      <div className="col-xs-12 col-sm-3">
-                       <input type="submit" defaultValue="Inscreva-se!" />
+                       <input type="submit" placeholder="Inscreva-se!" />
                      </div>
                    </div>
                  </form>

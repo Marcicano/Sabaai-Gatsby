@@ -1,7 +1,7 @@
 ---
 texto: texto intro
 ---
-## Sabaai (สบาย), a Tailândia nas suas mãos!
+### Sabaai (สบาย), a Tailândia nas suas mãos!
 
 Sabaai é do bem, Sabaai é conforto, Sabaai é alegria!
 

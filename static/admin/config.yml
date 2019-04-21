@@ -26,6 +26,7 @@ collections:
       - { label: "Aula Abordagem", name: "abordagemCurso", widget: "text" }
       - { label: "Valor A Vista", name: "valorVista", widget: "string" }
       - { label: "Valor Parcelado", name: "valorParcelado", widget: "string" }
+      - { label: "body", name: "body", widget: "markdown" }
 
   - name: "professores"
     label: "Professores Pagina Principal"
