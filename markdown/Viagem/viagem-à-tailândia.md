@@ -1,19 +1,10 @@
 ---
 viagemKey: viagem-info
-title: Viagem à Tailândia
-content: >-
-  _**Em breve viaje conosco para um dos destinos mais fascinantes do mundo, a
-  incrível Tailândia para uma imersão na cultura e nos estudos das técnicas de
-  massagem.**_
-
-
-  # Aguarde para novas informações!
-
-
-  > Estamos preparando tudo, e será imperdível!
 ---
-# **_Em breve viaje conosco para um dos destinos mais fascinantes do mundo, a incrível Tailândia para uma imersão na cultura e nos estudos das técnicas de massagem._**
+## _**Viagem à Tailândia**_
 
-# Aguarde para novas informações!
+Em breve viaje conosco para um dos destinos mais fascinantes do mundo, a incrível Tailândia para uma imersão na cultura e nos estudos das técnicas de massagem.
 
-> * Estamos preparando tudo, e será imperdível!
+Aguarde para novas informações!
+
+Estamos preparando tudo, e será imperdível!
