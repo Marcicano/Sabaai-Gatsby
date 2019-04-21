@@ -1,5 +1,5 @@
 ---
-title: Texto primeira pagina
+title: Texto primeira paginas
 ---
 ## Sabaai (สบาย), a Tailândia nas suas mãos!
 
