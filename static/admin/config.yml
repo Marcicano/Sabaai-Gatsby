@@ -35,8 +35,8 @@ collections:
     editor:
      preview: false
     fields:
-      - { label: "Indexinfo Key", name: "indexinfoKey", widget: "hidden", default: "index-info" }
-      - { label: "Viagem", name: "viagem", widget: "string", default: "Texto primeira pagina" }
+      - { label: "TemplateKey", name: "templateKey", widget: "hidden", default: "index-info" }
+      - { label: "Area", name: "area", widget: "string", default: "Texto primeira pagina" }
       - { label: "body", name: "body", widget: "markdown" }
   
   
