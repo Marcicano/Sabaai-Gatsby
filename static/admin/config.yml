@@ -62,6 +62,7 @@ collections:
      preview: false
     fields:
       - { label: "Viagem Key", name: "viagemKey", widget: "hidden", default: "viagem-info" }
+      - { label: "Viagem", name: "viagem", widget: "string", default: "Viagem a Tailandia" }
       - { label: "body", name: "body", widget: "markdown" }
       
       
