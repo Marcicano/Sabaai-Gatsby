@@ -62,8 +62,6 @@ collections:
      preview: false
     fields:
       - { label: "Viagem Key", name: "viagemKey", widget: "hidden", default: "viagem-info" }
-      - { label: "Titulo", name: "title", widget: "string" }
-      - { label: "Texto", name: "content", widget: "markdown" }
       - { label: "body", name: "body", widget: "markdown" }
       
       
