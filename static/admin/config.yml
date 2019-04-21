@@ -2,7 +2,6 @@ backend:
   name: git-gateway
   repo: Marcicano/Sabaai-Gatsby
 
-publish_mode: editorial_workflow
 media_folder: static/img
 public_folder: /img
 
@@ -65,6 +64,6 @@ collections:
       - { label: "Viagem Key", name: "viagemKey", widget: "hidden", default: "viagem-info" }
       - { label: "Titulo", name: "title", widget: "string" }
       - { label: "Texto", name: "content", widget: "markdown" }
-      - { label: "Text2", name: "texto2", widget: "markdown" }
+      - { label: "body", name: "body", widget: "markdown" }
       
       
