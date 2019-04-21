@@ -8,7 +8,7 @@ import Layout from "../components/layout"
 import Intro from "../components/IndexComponents/Intro"
 import Cursos from "../components/IndexComponents/Cursos"
 import Professores from "../components/IndexComponents/Professores"
-import Viagem from "../components/IndexComponents/Viagem"
+import Viagens from "../components/IndexComponents/Viagens"
 
 
 const IndexPage = () => {
@@ -17,7 +17,7 @@ const IndexPage = () => {
       <Intro />
       <Cursos />
       <Professores />
-      <Viagem />
+      <Viagens />
     </Layout>
   )
 }
