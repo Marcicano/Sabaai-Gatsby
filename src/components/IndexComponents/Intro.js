@@ -5,7 +5,10 @@ const Intro = () => {
   const data = useStaticQuery(graphql`
     query {
       allMarkdownRemark(
-        filter: { id: { eq: "f232a0d8-ba13-5e19-a664-c542a8c72a23" } }
+        filter: { 
+          frontmatter: {
+            texto: {eq: "texto intro"} }
+        }
       ) {
         edges {
           node {
@@ -13,6 +16,7 @@ const Intro = () => {
             html
             frontmatter {
               texto
+              
             }
           }
         }
@@ -20,6 +24,8 @@ const Intro = () => {
     }
   `)
   const introtexto = data.allMarkdownRemark.edges[0].node.html
+  
+  console.log(introtexto)
   return (
     <React.Fragment>
       <section className="intro" id="intro">
