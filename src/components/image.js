@@ -13,20 +13,49 @@ import Img from "gatsby-image"
  * - `StaticQuery`: https://gatsby.dev/staticquery
  */
 
-const Image = () => (
-  <StaticQuery
-    query={graphql`
+export const query = graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "gatsby-astronaut.png" }) {
+        thaimassage: file(relativePath: { eq: "formacao.png" }) {
           childImageSharp {
-            fluid(maxWidth: 300) {
-              ...GatsbyImageSharpFluid
+            fluid(maxWidth: 700) {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
+          }
+        }
+  		hotball: file(relativePath: { eq: "hot-ball.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 700) {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
+          }
+        }
+  		reflexologia:file(relativePath: { eq: "reflexologia.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 700) {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
+          }
+        }
+			spa:file(relativePath: { eq: "spa-tailandes.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 700) {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
+          }
+        }
+  	toksen:file(relativePath: { eq: "toksen.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 700) {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
+          }
+        }
+  	retiro:file(relativePath: { eq: "retiro-teresopolis.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 700) {
+              ...GatsbyImageSharpFluid_tracedSVG
             }
           }
         }
       }
-    `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
-  />
-)
-export default Image
+`

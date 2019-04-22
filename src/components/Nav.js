@@ -2,7 +2,8 @@ import React from 'react'
 import {Link} from 'gatsby'
 
 
-const Nav = () => {
+const Nav = ({data}) => {
+  console.log(data)
   return (
     <nav className="row middle-xs center-xs">
       <div className=" col-12 col-xs-12 col-sm-1 logo">
@@ -35,7 +36,7 @@ const Nav = () => {
       </div>
       <div className="col-sm-2 menu-item-lg">
         <h3>
-          <Link to="/agenda">Agenda</Link>
+          <Link to="/cursos/cidades">Agenda</Link>
         </h3>
       </div>
     </nav>

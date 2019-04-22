@@ -21,11 +21,6 @@ collections:
       - { label: "Posicao", name: "position", widget: "number" }
       - { label: "Data Publicacao", name: "date", widget: "datetime" }
       - { label: "Cidades do Curso", name: "cidadeCurso", widget: "string" }
-      # - { label: "Publico Alvo", name: "publicoCurso", widget: "text" }
-      # - { label: "Sobre o Curso", name: "sobreCurso", widget: "text" }
-      # - { label: "Aula Abordagem", name: "abordagemCurso", widget: "text" }
-      # - { label: "Valor A Vista", name: "valorVista", widget: "string" }
-      # - { label: "Valor Parcelado", name: "valorParcelado", widget: "string" }
       - { label: "body", name: "body", widget: "markdown" }
 
   - name: "professores"
@@ -54,7 +49,7 @@ collections:
       - { label: "Viagem Key", name: "viagemKey", widget: "hidden", default: "viagem-info" }
       - { label: "body", name: "body", widget: "markdown" }
 
-  - name: "infoindex"
+  - name: "intro"
     identifier_field: body
     label: "Introducao Pagina Principal"
     folder: "/markdown/Intro"
@@ -63,7 +58,7 @@ collections:
     editor:
      preview: false
     fields:
-      - { label: "Intro Key", name: "introKey", widget: "hidden", default: "index-info" }
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "index-info" }
       - { label: "Texto", name: "texto", widget: "string", default: "Texto primeira pagina" }
       - { label: "body", name: "body", widget: "markdown" }
 

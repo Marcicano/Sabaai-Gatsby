@@ -50,7 +50,6 @@ export default Professores
 
 const Professor = ({professor}) => {
   const { title, thumbnail, content} = professor.frontmatter
-  console.log(professor)
   return (
     <section className="about" id="nos">
       <div className="container middle-xs">
