@@ -28,11 +28,10 @@ const Cursos = () => {
           thumbnail
           position
           date
-          cidadeCurso
-          publicoCurso
-          sobreCurso
-          valorVista
-          valorParcelado
+          
+          
+          
+          
         }
       }
     }

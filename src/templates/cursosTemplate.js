@@ -15,11 +15,6 @@ export const queryPage = graphql`
     html
     frontmatter {
      title
-     publicoCurso
-      sobreCurso
-      abordagemCurso
-      valorVista
-      valorParcelado
       thumbnail
     }
   }
