@@ -49,14 +49,15 @@ export default Professores
 
 
 const Professor = ({professor}) => {
-  const {title, thumbmail, content} = professor.frontmatter
+  const { title, thumbnail, content} = professor.frontmatter
+  console.log(professor)
   return (
     <section className="about" id="nos">
       <div className="container middle-xs">
         <div className="row content">
 
           <div className="col-xs-12 col-sm-4 middle-sm">
-            <img className="img-professor" src={thumbmail} alt={title} />
+            <img className="img-professor" src={thumbnail} alt={title} />
           </div>
           <div className="col-xs-12 col-sm-8 middle-sm">
             <h3 className="professor-title" id="prof-anderson-marcicano"> {title} </h3>

@@ -24,8 +24,6 @@ const Intro = () => {
     }
   `)
   const introtexto = data.allMarkdownRemark.edges[0].node.html
-  
-  console.log(introtexto)
   return (
     <React.Fragment>
       <section className="intro" id="intro">
