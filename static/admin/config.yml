@@ -63,7 +63,7 @@ collections:
     editor:
      preview: false
     fields:
-      - { label: "Info Key", name: "infoKey", widget: "hidden", default: "Informacao Primeira Pagina" }
+      - { label: "Intro Key", name: "introKey", widget: "hidden", default: "index-info" }
       - { label: "Texto", name: "texto", widget: "string", default: "Texto primeira pagina" }
       - { label: "body", name: "body", widget: "markdown" }
 
