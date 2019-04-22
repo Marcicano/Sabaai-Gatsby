@@ -4,12 +4,7 @@ title: Thai Massagem
 thumbnail: /img/formacao.png
 position: 1
 date: 2019-04-21T23:11:41.400Z
-cidadeCurso: teste
-publicoCurso: teste
-sobreCurso: teste
-abordagemCurso: teste
-valorVista: teste
-valorParcelado: teste
+cidadeCurso: Rio de Janeiro - Belo Horizonte
 ---
 ## A quem é destinado este curso?
 
@@ -25,5 +20,5 @@ O curso de formação compreende os Níveis I e II do formato Tailandês do ITM 
 
 ## Valores
 
-* \    R$ 1.850 à vista (matrícula R$ 350 + 1.500)
-* \    R$ 1.950 parcelado (matrícula de R$ 350 + 1.600 - até 12x no cartão)
+*    R$ 1.850 à vista (matrícula R$ 350 + 1.500)
+*    R$ 1.950 parcelado (matrícula de R$ 350 + 1.600 - até 12x no cartão)
