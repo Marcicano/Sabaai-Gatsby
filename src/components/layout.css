@@ -92,7 +92,27 @@ body {
       max-width: 100%;
     }
 
+    .card {
+      margin: 1em !important;
+    }
+
+     .card h3{
+      margin: 0.2em !important;
+    }
+
+    .card-body {
+      background-color: rgba(255, 121, 63, .9);
+      padding: .1em .5em;  
+    }
     
+    .card-body p {
+      font-size: .8em;
+    }
+    
+
+    .card-img-bottom {
+      border-radius: 10px 10px 0 0;
+    }
 
    
 

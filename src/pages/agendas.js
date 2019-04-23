@@ -1,29 +1,20 @@
-import React from 'react'
-import { graphql } from "gatsby";
+import React from "react"
+import { graphql } from "gatsby"
 import teste from "../images/BeFunky.jpg"
 import teste2 from "../images/testethai.jpg"
 
 import Nav from "../components/Nav"
 
 export const queryPage = graphql`
-    query Pageagenda (
-  $slug : String
-){
-  markdownRemark (
-    fields: {
-      slug:{
-        eq: $slug
+  query Pageagendas($slug: String) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      frontmatter {
+        title
       }
     }
-  ) {
-    frontmatter {
-     title
-      
-    }
   }
-}
 `
-const agendaTemplate = () => {
+const agendas = () => {
   return (
     <React.Fragment>
       <Nav />
@@ -46,8 +37,8 @@ const agendaTemplate = () => {
                 <div class="card-body">
                   <h3>Rio de Janeiro</h3>
                   <p>
-                    It's a broader card with text below as a natural lead-in
-                    to extra content. This content is a little longer.
+                    It's a broader card with text below as a natural lead-in to
+                    extra content. This content is a little longer.
                   </p>
                 </div>
               </div>
@@ -66,8 +57,8 @@ const agendaTemplate = () => {
                 <div class="card-body">
                   <h3>Rio de Janeiro</h3>
                   <p>
-                    It's a broader card with text below as a natural lead-in
-                    to extra content. This content is a little longer.
+                    It's a broader card with text below as a natural lead-in to
+                    extra content. This content is a little longer.
                   </p>
                 </div>
               </div>
@@ -86,14 +77,12 @@ const agendaTemplate = () => {
                 <div class="card-body">
                   <h3>Rio de Janeiro</h3>
                   <p>
-                    It's a broader card with text below as a natural lead-in
-                    to extra content. This content is a little longer.
+                    It's a broader card with text below as a natural lead-in to
+                    extra content. This content is a little longer.
                   </p>
                 </div>
               </div>
             </div>
-
-
           </div>
         </section>
       </div>
@@ -101,4 +90,4 @@ const agendaTemplate = () => {
   )
 }
 
-export default agendaTemplate
+export default agendas

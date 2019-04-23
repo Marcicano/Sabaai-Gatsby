@@ -16,6 +16,7 @@ import "./main.css"
 const layout = ({ children }) => {
   return (
     <React.Fragment>
+      
       <Header />
       <main>{children}</main>
       <Footer />

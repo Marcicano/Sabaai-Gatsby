@@ -1,8 +1,8 @@
 import React from 'react'
-import {cursosTemplate} from '../../templates/cursosTemplate'
+import { internalPage} from '../../templates/cursosTemplate'
 
 const CursosPreview = ({ entry, widgetFor }) => (
-    <cursosTemplate
+    <internalPage
     title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
   />
