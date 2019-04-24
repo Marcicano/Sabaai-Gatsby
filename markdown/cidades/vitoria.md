@@ -5,6 +5,7 @@ textocard: >-
   Aliquam lectus mi, pretium et pulvinar quis, luctus nec justo. Quisque egestas
   est non
 thumbnail: /img/spa-tailandes.png
+location: '{"type":"Point","coordinates":[-43.2007698,-22.9300001]}'
 ---
 #     Vitoria
 
@@ -12,8 +13,8 @@ Aliquam lectus mi, pretium et pulvinar quis, luctus nec justo. Quisque egestas e
 
 ![anderson](/img/marcicano.jpg "Anderson! ")
 
->  TEste citacao!
+>  Teste citacao!
 
 Clique Aqui [www.sabaai.com.br](www.sabaai.com.br)
 
-asdasdasd
+luctus nec justo. Quisque egestas est non bibendum ultrices. Duis id porttitor nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse molestie feugiat blandit. Duis lacus urna, aliquam eu quam at, maximus
