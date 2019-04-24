@@ -3,6 +3,7 @@ module.exports = {
     title: `Sabaai App`,
     description: `Web application for Sabaai.com.br.`,
     author: `@rogermenezes`,
+    pathPrefix: `/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -25,7 +26,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
-    
+
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

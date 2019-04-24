@@ -6,18 +6,19 @@
  */
 
 import React from "react"
-import Header from "./Globals/header"
 import Footer from "./Globals/Footer"
+import { Link } from "gatsby";
 
 import "./layout.css"
 import "./main.css"
+import "./fontawesome.min.css"
 
 
-const layout = ({ children }) => {
+
+const layout = ({ children, props }) => {
+  console.log(props)
   return (
     <React.Fragment>
-      
-      <Header />
       <main>{children}</main>
       <Footer />
     </React.Fragment>

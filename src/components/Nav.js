@@ -36,7 +36,7 @@ const Nav = () => {
       </div>
       <div className="col-sm-2 menu-item-lg">
         <h3>
-          <Link to="/agenda/cidades">Agenda</Link>
+          <Link to="/agendas"> Agenda</Link>
         </h3>
       </div>
     </nav>

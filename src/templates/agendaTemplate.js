@@ -1,15 +1,15 @@
 import React from 'react'
 import { graphql } from "gatsby";
-import teste from "../images/BeFunky.jpg"
-import teste2 from "../images/testethai.jpg"
-
+import Agendas from "../pages/agendas"
 import Nav from "../components/Nav"
+import Footer from "../components/Globals/Footer"
+import preCadastro from "../components/preCadastro"
 
 export const queryPage = graphql`
     query Pageagenda (
   $slug : String
 ){
-  markdownRemark (
+  selectedcidade:markdownRemark (
     fields: {
       slug:{
         eq: $slug
@@ -23,80 +23,39 @@ export const queryPage = graphql`
   }
 }
 `
-const agendaTemplate = () => {
+const agendaTemplate = ({data, location}) => {
+  console.log(location.state)
+  
   return (
     <React.Fragment>
       <Nav />
-      <div className="container page-section">
-        <div className="col page-title">
-          <h1> Confira nossa Agenda de cursos </h1>
-        </div>
-        <section className="" id="">
-          <div className="row">
-            <div className="col-xs-12 col-md-6">
-              <div class="card">
-                {/* <h2>Rio de Janeiro</h2> */}
-                <div className="card-header">
-                  <img
-                    class="card-img-bottom"
-                    src={teste}
-                    alt="Card image cap"
+      <div className="container">
+        <div className="container">
+          <div className="inscrevase-container">
+            <form id="preinscricao">
+              <input type="hidden" name="preinscricao" defaultValue />
+              <input type="hidden" name="curso" defaultValue />
+              <div className="row">
+                <div className="col-xs-12">
+                  Inscreva-se já! Demora menos de 2 minutos.
+                </div>
+                <div className="col-xs-12 col-sm-9">
+                  <input
+                    type="email"
+                    title="email"
+                    name="email"
+                    placeholder="Informe-nos seu email!"
                   />
                 </div>
-                <div class="card-body">
-                  <h3>Rio de Janeiro</h3>
-                  <p>
-                    It's a broader card with text below as a natural lead-in
-                    to extra content. This content is a little longer.
-                  </p>
+                <div className="col-xs-12 col-sm-3">
+                  <input type="submit" placeholder="Inscreva-se!" />
                 </div>
               </div>
-            </div>
-
-            <div className="col-xs-12 col-md-6">
-              <div class="card">
-                {/* <h2>Rio de Janeiro</h2> */}
-                <div className="card-header">
-                  <img
-                    class="card-img-bottom"
-                    src={teste}
-                    alt="Card image cap"
-                  />
-                </div>
-                <div class="card-body">
-                  <h3>Rio de Janeiro</h3>
-                  <p>
-                    It's a broader card with text below as a natural lead-in
-                    to extra content. This content is a little longer.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-xs-12 col-md-6">
-              <div class="card">
-                {/* <h2>Rio de Janeiro</h2> */}
-                <div className="card-header">
-                  <img
-                    class="card-img-bottom"
-                    src={teste}
-                    alt="Card image cap"
-                  />
-                </div>
-                <div class="card-body">
-                  <h3>Rio de Janeiro</h3>
-                  <p>
-                    It's a broader card with text below as a natural lead-in
-                    to extra content. This content is a little longer.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-
+            </form>
           </div>
-        </section>
+        </div>
       </div>
+      <Footer />
     </React.Fragment>
   )
 }

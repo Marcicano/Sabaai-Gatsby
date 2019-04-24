@@ -40,6 +40,33 @@ body {
     }
 
     
+    .SabaaiHeader {
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .SabaaiNav {
+      width: 100%;
+      height: 64px;
+      background-color: red;
+      position: fixed;
+      top: 0;
+      z-index: 9999;
+    }
+  
+
+   
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
     .whitebox p {
       font-size: .8em !important;
       line-height: 30px !important;
@@ -92,26 +119,83 @@ body {
       max-width: 100%;
     }
 
-    .card {
-      margin: 1em !important;
-    }
-
-     .card h3{
-      margin: 0.2em !important;
+  
+     .card {
+       margin-bottom: 2em;
+       
+     } 
+     .card p{
+      margin: 0 !important;
     }
 
     .card-body {
-      background-color: rgba(255, 121, 63, .9);
-      padding: .1em .5em;  
+      background-color: rgba(61, 61, 61, 0.9);
+      /* padding: .1em .5em;   */
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      
     }
     
     .card-body p {
-      font-size: .8em;
+      color: white !important;
+      margin: 0 .2em !important;
+    }
+    
+    
+
+    .card-footer {
+      
+      background-color: rgba(255, 121, 63, .9);
+      min-height: 10em;
+    }
+
+    .card-footer  {
+      font-size: 1em;
+      padding: .5em;
+      overflow: hidden;
+      margin: 0 !important;
+    }
+    .card-footer--calendar p {
+      text-align: center !important;
+      margin-right: 0 1em !important;
+      color: white;
+    }
+    
+      .card-footer--calendar{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      
+    }
+
+    .card-footer--info p{
+      color: white;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 0 1em;
+      outline: none;
+      text-align: center;
+      word-break: break-all;
+    }
+
+
+  
+
+    
+    .divider {
+    width: 70px;
+    height: 2px;
+    clear: both;
+    background-color: #ffffff;
+    margin: 15px auto;
     }
     
 
     .card-img-bottom {
-      border-radius: 10px 10px 0 0;
+      border-radius: 20px 20px 0 0;
     }
 
    
@@ -272,6 +356,7 @@ body {
           25% { opacity: 0; }
           100%   { opacity: 1; }
       }
+      
 
     article {
       font-size: 1rem;
@@ -296,10 +381,19 @@ body {
       content: "";
       position: absolute;
       top: 0; left: 0;
-      width: 100%; height: 100%;
+      width: 100%; height: 100vh;
        
       background: #ff793f;
     }
+    
+    .header-internal {
+      background: #ff793f;
+      width: 100vw;
+      height: 30vh;
+
+    
+    }
+
     header {
       color: white;
     }
@@ -315,6 +409,7 @@ body {
      .page-title{
        margin: 2em 0 1em 0;
        font-size: 50px;
+       text-align: center;
      } 
 
        .page-section h2{

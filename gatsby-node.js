@@ -20,7 +20,7 @@ module.exports.createPages = async ({graphql, actions}) => {
     const internalagendaPage = path.resolve("./src/templates/agendaTemplate.js")
     const res = await graphql(`
       query {
-        cursospage:allMarkdownRemark(
+        cursospage: allMarkdownRemark(
           filter: {
             frontmatter: { templateKey: { eq: "cursos-informacoes" } }
           }
@@ -33,8 +33,10 @@ module.exports.createPages = async ({graphql, actions}) => {
             }
           }
         }
-        agenda:allMarkdownRemark(
-          filter: { fields: { slug: { eq: "cidades" } } }
+        agenda: allMarkdownRemark(
+          filter: {
+            frontmatter: { templateKey: { eq: "cidades-informacoes" } }
+          }
         ) {
           edges {
             node {
