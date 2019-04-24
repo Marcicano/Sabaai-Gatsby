@@ -71,7 +71,7 @@ const Agenda = ({agenda}) => {
           <div className="card">
             <div className="card-header">
               <img
-                className="card-img-bottom bg-color-1"
+                className="card-img-bottom"
                 src={thumbnail}
                 alt={`Agenda ${title}`}
               />

@@ -1,12 +1,12 @@
 import React from 'react'
 
-const preCadastro = () => {
+const Cadastro = () => {
   return (
     <React.Fragment>
-      <div className="container">
-        <div className="col page-title">
-          <h1> tutulo qualquer</h1>
-        </div>
+      <div className="container container-section">
+        {/* <div className="col page-title">
+          <h1> Titulo qualquer</h1>
+        </div> */}
         <div className="inscrevase-container">
           <form id="preinscricao">
             <input type="hidden" name="preinscricao" defaultValue />
@@ -34,4 +34,4 @@ const preCadastro = () => {
   )
 }
 
-export default preCadastro
+export default Cadastro
