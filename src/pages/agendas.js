@@ -78,19 +78,19 @@ const Agenda = ({agenda}) => {
             </div>
             <div className="card-body">
               <p>
-                <FaMapMarkerAlt />
+                <FaMapMarkerAlt fill="white" />
               </p>
               <p> {title}</p>
             </div>
             <div className="card-footer">
               <div className="card-footer--calendar">
                 <p>
-                  <FaCalendarAlt />
+                  <FaCalendarAlt fill="white"/> {" "}
                   12/05/2019
                 </p>
 
                 <p>
-                  <FaRegClock />
+                  <FaRegClock fill="white" /> {" "}
                   19:00
                 </p>
               </div>

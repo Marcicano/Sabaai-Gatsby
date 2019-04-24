@@ -181,6 +181,9 @@ body {
       word-break: break-all;
     }
 
+    .icon-color {
+      color: white !important;
+    }
 
   
 
