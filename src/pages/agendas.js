@@ -71,10 +71,13 @@ const Agenda = ({agenda}) => {
           <div className="card">
             <div className="card-header">
               <img
-                className="card-img-bottom"
+                className="card-img-bottom bg-color-1"
                 src={thumbnail}
                 alt={`Agenda ${title}`}
               />
+              <div className="hovercard">
+                <button className="card-button">Confira</button>
+              </div>
             </div>
             <div className="card-body">
               <p>
@@ -85,13 +88,11 @@ const Agenda = ({agenda}) => {
             <div className="card-footer">
               <div className="card-footer--calendar">
                 <p>
-                  <FaCalendarAlt fill="white"/> {" "}
-                  12/05/2019
+                  <FaCalendarAlt fill="white" /> 12/05/2019
                 </p>
 
                 <p>
-                  <FaRegClock fill="white" /> {" "}
-                  19:00
+                  <FaRegClock fill="white" /> 19:00
                 </p>
               </div>
               <div className="divider" />
