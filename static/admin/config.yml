@@ -75,6 +75,7 @@ collections:
       - { label: "Nome da Cidade", name: "title", widget: "string" }
       - { label: "Texto Card", name: "textocard", widget: "string" }
       - { label: "Imagem Cidade", name: "thumbnail", widget: "image" }
+      - {label: "Location", name: "location", widget: "map" }
       - { label: "body", name: "body", widget: "markdown" }
 
 
