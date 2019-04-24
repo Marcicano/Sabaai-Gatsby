@@ -2,6 +2,6 @@
 templateKey: cidades-informacoes
 title: Rio de Janeiro
 textocard: 'texto qualquer '
-thumbnail: /img/befunky.jpg
+thumbnail: /img/formacao.png
 ---
 ## Ola, teste
