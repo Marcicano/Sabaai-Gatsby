@@ -1,8 +1,8 @@
 ---
 templateKey: cidades-informacoes
 title: Sao Paulo
-textocard: saoasodkaoskdoaskdoaskdoaksodkasodk
-thumbnail: /img/rio-de-janeiro.png
+textocard: 'Algum texto informativo, alterar no cms....alterar foto tambem!'
+thumbnail: /img/reflexologia.png
 ---
 ## Ola texto body testeeeee
 
