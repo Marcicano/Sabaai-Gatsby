@@ -1,6 +1,9 @@
 import React from 'react'
 import { graphql } from "gatsby";
 
+import Layout from "../components/layout"
+
+
 export const queryPage = graphql`
     query Pagebypath (
   $slug : String
@@ -27,7 +30,7 @@ const internalPage = ({data}) => {
     const { title } = data.markdownRemark.frontmatter
     const conteudo = data.markdownRemark.html
   return (
-      <React.Fragment>
+      <Layout>
              <div className="container">
                <div className="col page-title">
                  <h1> {title} </h1>
@@ -60,7 +63,7 @@ const internalPage = ({data}) => {
               />
                
              
-           </React.Fragment>
+           </Layout>
   )
 }
 

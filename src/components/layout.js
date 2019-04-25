@@ -7,7 +7,7 @@
 
 import React from "react"
 import Footer from "./Globals/Footer"
-
+import Nav from './Nav'
 import "./layout.css"
 import "./main.css"
 import "./fontawesome.min.css"
@@ -18,6 +18,7 @@ const layout = ({ children, props }) => {
   console.log(props)
   return (
     <React.Fragment>
+      <Nav />
       <main>{children}</main>
       <Footer />
     </React.Fragment>

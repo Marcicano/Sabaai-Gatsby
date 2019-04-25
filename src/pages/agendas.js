@@ -41,7 +41,6 @@ const Agendas = () => {
     return (
       <Layout >
         
-          <Nav />
           <div className="container page-section">
             <div className="col page-title">
               <h1> Proximos Cursos </h1>

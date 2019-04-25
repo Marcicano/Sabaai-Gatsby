@@ -3,6 +3,7 @@ import { graphql } from "gatsby";
 import Nav from "../components/Nav"
 import Footer from "../components/Globals/Footer"
 import Cadastro from "../components/preCadastro"
+import Layout from "../components/layout"
 
 export const queryPage = graphql`
     query Pageagenda (
@@ -29,16 +30,16 @@ const agendaTemplate = ({data}) => {
   console.log(data)
   const conteudo = data.selectedcidade.html
   return (
-    <React.Fragment>
-      <Nav />
+    <Layout>
+      
       <Cadastro />
       <div className="container"
         dangerouslySetInnerHTML={{__html: conteudo}}
         />
         
       
-      <Footer />
-    </React.Fragment>
+      
+    </Layout>
   )
 }
 
