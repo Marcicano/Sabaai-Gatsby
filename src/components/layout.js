@@ -7,7 +7,6 @@
 
 import React from "react"
 import Footer from "./Globals/Footer"
-import { Link } from "gatsby";
 
 import "./layout.css"
 import "./main.css"

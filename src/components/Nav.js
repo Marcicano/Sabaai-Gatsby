@@ -5,6 +5,8 @@ import {Link} from 'gatsby'
 const Nav = () => {
   
   return (
+
+
     <nav className="row middle-xs center-xs">
       <div className=" col-12 col-xs-12 col-sm-1 logo">
         <Link to="/">
@@ -39,6 +41,9 @@ const Nav = () => {
           <Link to="/agendas"> Agenda</Link>
         </h3>
       </div>
+
+      
+
     </nav>
   )
 }

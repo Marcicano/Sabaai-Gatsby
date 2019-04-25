@@ -1,8 +1,8 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import Nav from "../components/Nav"
-import { IconContext } from "react-icons"
 import { FaMapMarkerAlt, FaCalendarAlt, FaRegClock } from "react-icons/fa"
+import Layout from "../components/layout";
 
 
 
@@ -39,21 +39,23 @@ const Agendas = () => {
     `)
     
     return (
-      <React.Fragment>
-        <Nav />
-        <div className="container page-section">
-          <div className="col page-title">
-            <h1> Proximos Cursos </h1>
-          </div>
-          <section className="" id="">
-            <div className="row">
-              {data.agendas.edges.map(item => {
-                return <Agenda key={item.node.id} agenda={item.node} />
-              })}
+      <Layout >
+        
+          <Nav />
+          <div className="container page-section">
+            <div className="col page-title">
+              <h1> Proximos Cursos </h1>
             </div>
-          </section>
-        </div>
-      </React.Fragment>
+            <section className="" id="">
+              <div className="row">
+                {data.agendas.edges.map(item => {
+                  return <Agenda key={item.node.id} agenda={item.node} />
+                })}
+              </div>
+            </section>
+          </div>
+        
+      </Layout>
     )
 }
 

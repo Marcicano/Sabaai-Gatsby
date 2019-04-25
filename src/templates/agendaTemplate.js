@@ -1,6 +1,5 @@
 import React from 'react'
 import { graphql } from "gatsby";
-import Agendas from "../pages/agendas"
 import Nav from "../components/Nav"
 import Footer from "../components/Globals/Footer"
 import Cadastro from "../components/preCadastro"
@@ -19,12 +18,15 @@ export const queryPage = graphql`
     html
     frontmatter {
      title
+     location
+
       
     }
   }
 }
 `
 const agendaTemplate = ({data}) => {
+  console.log(data)
   const conteudo = data.selectedcidade.html
   return (
     <React.Fragment>
